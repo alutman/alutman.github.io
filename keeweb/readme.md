@@ -8,6 +8,9 @@ Modified `<meta name="kw-config" content="(no-config)">` in the `index.html` to 
 
 
 #### Useful links on self hosting
+https://console.developers.google.com/apis/dashboard
+
 https://github.com/keeweb/keeweb/wiki/Dropbox-and-GDrive
 
 https://github.com/keeweb/keeweb/wiki/Configuration
+
