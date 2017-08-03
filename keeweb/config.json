@@ -1,5 +1,8 @@
 {
   "settings": {
-    "theme": "te"
+    "theme": "white",
+    "gdriveClientId": "dunno",
+    "webdav" : false,
+    "onedrive": false
   }
 }
