@@ -2,6 +2,7 @@
   "settings": {
     "theme": "wh",
     "gdriveClientId": "8461275550-launlfjcn906oag4phgm2dr4p210v78a.apps.googleusercontent.com",
+    "canOpenDemo": false,
     "webdav" : false,
     "onedrive": false
   }
