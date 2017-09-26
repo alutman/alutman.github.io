@@ -1,0 +1,25 @@
+body {
+	font-family: monospace;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+fieldset {
+	background: lightgray;
+	border-radius: 5px;
+}
+fieldset > legend {
+	background: gray;
+	color: white;
+	border-radius: 5px;
+}
+button {
+	background: #21447c;
+	color: white;
+	border-radius: 5px;
+}
+input {
+	font-family: monospace;
+}
+table {
+	border-spacing: 5px;
+}

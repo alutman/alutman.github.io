@@ -1,0 +1,37 @@
+<html>
+<head>
+	<script type="text/javascript" src="lists/dice_german.js"></script>
+	<script type="text/javascript" src="lists/dice_english.js"></script>
+	<script type="text/javascript" src="lists/dice_beale.js"></script>
+	<script type="text/javascript" src="foswig.js"></script>
+	<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+	<h2>Fake Word Generator</h2>
+	<div id="input">
+		<h4>Input</h4>
+		<fieldset>
+			<legend>Word Criteria</legend>
+			<input id="criteria" type="text" placeholder="word.includes('ae')"/>
+		</fieldset>
+		<fieldset>
+            <legend>Word Lists</legend>
+            <input type="checkbox" id="wl_dw_german" value="german" />Diceware German <br />
+            <input type="checkbox" id="wl_dw_english" value="std" checked="true"/>Diceware English<br />
+            <input type="checkbox" id="wl_dw_beale" value="beale" />Diceware English (Beale)<br />
+		</fieldset>
+		<fieldset>
+			<legend>Parameters</legend>
+            <input id="order" type="number" placeholder="markov order (3)"/>
+			<input id="min" type="number" placeholder="min size (4)"/>
+			<input id="max" type="number" placeholder="max size (15)" />
+			<button id="generate" onclick="generate()">Generate</button>
+        </fieldset>
+	</div>
+	<div>
+		<h4>Output</h4>
+		<div id="output"></div>
+	</div>
+	<script type="text/javascript" src="generator.js"></script>
+</body>
+</html>
